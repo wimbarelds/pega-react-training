@@ -21,6 +21,13 @@ export function LoadingData() {
           <li>Maar meestal gebruikt men hier een library voor</li>
         </ul>
       </Collapse>
+
+      <Collapse title="Spoiler 2" prose className="mt-8">
+        <img src="race-condition.png" alt="" className="max-w-[800px]"></img>
+        <p className="text-2xl text-center font-bold">
+          Meestal gebruikt men daarom een library voor data-fetching
+        </p>
+      </Collapse>
     </Prose>
   );
 }

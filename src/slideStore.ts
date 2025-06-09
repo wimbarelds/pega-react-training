@@ -63,7 +63,7 @@ const slides: Slides = [
   ],
   [{ preview: `Pega's libraries`, view: PegaLibraries }],
   [{ preview: 'Component maken', view: ComponentMaken }],
-  [{ preview: 'ConstellationAPI', view: ConstellationAPI }],
+  [{ preview: 'Constellation API', view: ConstellationAPI }],
   [{ preview: 'Overig', view: OverigeTools }],
 ];
 

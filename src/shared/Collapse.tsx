@@ -25,7 +25,7 @@ export function Collapse({ title, children, className, prose }: Props) {
           py={0}
           width={16}
           height={10}
-          className="group-open:rotate-180 transition-transform"
+          className="rotate-90 group-open:rotate-180 transition-transform"
         />
         {title}
       </summary>
