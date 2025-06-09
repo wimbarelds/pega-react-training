@@ -1,0 +1,38 @@
+<AppLayout>
+  <VersionInfo text="01 1.0.14" />
+  <Header>
+    <Branding>
+      <Logo />
+      <Org
+        line="Rijksinspectie Digitale Infrastructuur"
+        line2="Ministerie van Economische Zaken"
+      />
+    </Branding>
+    <UserInfo>
+      <UserName text="Ronald Achternaam 3008000" />
+      <LogoutButton text="Uitloggen" />
+    </UserInfo>
+  </Header>
+  <Sidebar>
+    <PrimaryNav>
+      <NavItem icon="home" text="Startpagina" />
+      <NavItem icon="plus" text="Nieuwe zaak" />
+      <NavItem icon="envelope" text="Berichten" />
+      <NavItem icon="briefcase" text="Zaken" />
+      <NavItem icon="list" text="Registraties" />
+      <NavItem icon="file-alt" text="Vergunningen" />
+      <NavItem icon="user" text="Mijn gegevens" />
+    </PrimaryNav>
+    <RecentActivity>
+      <ActivityList />
+    </RecentActivity>
+  </Sidebar>
+  <MainContent>
+    <RouterOutlet>
+      <SummaryPage id="MAR-322001">
+        <CaseDetails />
+        <CaseAttachments />
+      </SummaryPage>
+    </ContentArea>
+  </MainContent>
+</AppLayout>

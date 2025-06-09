@@ -1,0 +1,3 @@
+<AuthCheck>
+  <PegaReactSdkBridge component-map="./rdi-sdk-components/sdk-local-component-map.js" />
+</AuthCheck>

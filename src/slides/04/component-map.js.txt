@@ -1,0 +1,55 @@
+// Statically load all "local" components that aren't yet in the npm package
+// If you remove a component here, please also remove the component from react-sdk/sdk-local-component-map.js
+
+import RdiAtzsPicklistCards from './src/components/custom-sdk/field/RDI_ATZS_PicklistCards/';
+import RdiAtzsApparatuurLijst from './src/components/custom-sdk/template/RDI_ATZS_ApparatuurLijst/';
+import RdiAtzsCaseReview from './src/components/custom-sdk/template/RDI_ATZS_CaseReview/';
+import RdiAtzsAllRecentCases from './src/components/custom-sdk/widget/RDI_ATZS_AllRecentCases/';
+import RdiAtzsNewCaseOverview from './src/components/custom-sdk/widget/RDI_ATZS_NewCaseOverview/';
+import DateTime from './src/components/override-sdk/field/DateTime/';
+import Dropdown from './src/components/override-sdk/field/Dropdown/';
+import Multiselect from './src/components/override-sdk/field/Multiselect/';
+import RadioButtons from './src/components/override-sdk/field/RadioButtons/';
+import TextArea from './src/components/override-sdk/field/TextArea/';
+import TextInput from './src/components/override-sdk/field/TextInput';
+import ActionButtons from './src/components/override-sdk/infra/ActionButtons/';
+import AssignmentCard from './src/components/override-sdk/infra/AssignmentCard/';
+import FlowContainer from './src/components/override-sdk/infra/Containers/FlowContainer';
+import ListViewActionButtons from './src/components/override-sdk/infra/Containers/ModalViewContainer/ListViewActionButtons';
+import AppShell from './src/components/override-sdk/template/AppShell/';
+import Confirmation from './src/components/override-sdk/template/Confirmation/';
+import ListView from './src/components/override-sdk/template/ListView';
+import ToDo from './src/components/override-sdk/widget/ToDo/';
+/* import end - DO NOT REMOVE */
+// app specific implementations for TableWithActions as they can and will differ per customer.
+import { onMenuActionClick } from './src/components/utils/TableWithActions/actions';
+
+// localSdkComponentMap is the JSON object where we'll store the components that are
+// found locally. If not found here, we'll look in the Pega-provided component map
+
+const localSdkComponentMap = {
+  RDI_ATZS_AllRecentCases: RdiAtzsAllRecentCases,
+  RDI_ATZS_ApparatuurLijst: RdiAtzsApparatuurLijst,
+  RDI_ATZS_CaseReview: RdiAtzsCaseReview,
+  RDI_ATZS_NewCaseOverview: RdiAtzsNewCaseOverview,
+  RDI_ATZS_PicklistCards: RdiAtzsPicklistCards,
+  AppShell: AppShell,
+  Confirmation: Confirmation,
+  Dropdown: Dropdown,
+  FlowContainer: FlowContainer,
+  ListViewActionButtons: ListViewActionButtons,
+  ListView: ListView,
+  Multiselect: Multiselect,
+  RadioButtons: RadioButtons,
+  TextArea: TextArea,
+  TextInput: TextInput,
+  Todo: ToDo,
+  DateTime: DateTime,
+  ActionButtons: ActionButtons,
+  AssignmentCard: AssignmentCard,
+  /* map end - DO NOT REMOVE */
+  // app specific implementations for TableWithActions as they can and will differ per customer.
+  onMenuActionClick,
+};
+
+export default localSdkComponentMap;

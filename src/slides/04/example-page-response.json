@@ -1,0 +1,4372 @@
+{
+  "data": {
+    "caseInfo": {
+      "content": {
+        "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+        "RedenBeeindigenCategorie": "RedenBeeindigingNP",
+        "RedenBeeindiging": "",
+        "Klantkenmerk": "Ordernummer 20250502093242",
+        "pyLabel": "Wijziging melding maritieme frequentie",
+        "ZenderIdentificatie": {
+          "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+          "Radioroepnaam": "PH2118",
+          "pyLabel": "",
+          "AtisNummer": "9244082118",
+          "MmsiNummer": "244001005",
+          "KeuzeMMSI": ""
+        },
+        "CalculatedCommunicatieVoorkeur": "Digitaal",
+        "CommunicatiePreference": {
+          "classID": "OCS-FW-ATFW-Data-DM-CommunicatieVoorkeur",
+          "Communicatievoorkeur": "Digitaal"
+        },
+        "pyCustomer": "3008000",
+        "pyWorkParty": {
+          "Relatie": {
+            "classID": "Data-Party-Relatie",
+            "pyID": "806A1FD7E46236DEEEED0A24AE4C5514"
+          }
+        },
+        "RelatieEmailadres": {
+          "classID": "OCS-FW-ATFW-Data-DM-Contactinformatie",
+          "SoortContactinformatie": {
+            "classID": "OCS-FW-ATFW-Data-DM-SoortContactInformatie",
+            "Id": "44444444444444444444444444444444"
+          },
+          "Waarde": "test@test.nl"
+        },
+        "AdresDetails": {
+          "classID": "OCS-FW-ATFW-Data-DM-Adres",
+          "SoortAdres": {
+            "classID": "OCS-FW-ATFW-Data-DM-SoortAdres",
+            "Naam": "Correspondentieadres"
+          },
+          "Land": {
+            "classID": "OCS-FW-ATFW-Data-DM-Land",
+            "Naam": ""
+          },
+          "Adresregel2": "Emmasingel  ",
+          "Adresregel3": "1111AA GRONINGEN",
+          "Adresregel1": "vcxvcx",
+          "NadereSpecificatie": ""
+        },
+        "RelatieWorkPartyData": {
+          "classID": "Data-Party-Relatie",
+          "pyWorkPartyUri": "3008000",
+          "pyFullName": "Ronald Achternaam 3008000"
+        },
+        "HoogsteCertificaat": {
+          "classID": "OCS-FW-ATFW-Data-DM-Certificaat",
+          "Naam": "Algemeen certificaat maritieme radiocommunicatie",
+          "Code": "MA"
+        },
+        "SoortMelding": "Pleziervaart",
+        "Schip": {
+          "classID": "OCS-FW-ATFW-Data-DM-Schip",
+          "SearchAndRescue": {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "KruissnelheidInKnopen": 99,
+            "KleurRompBovenWaterlijn": "Groen",
+            "KleurDek": "Roze",
+            "LengteSchip": 999.0,
+            "DiepteSchip": 999.0,
+            "KleurRompOnderWaterlijn": "Wit",
+            "MaxAantalOpvarenden": 9999,
+            "AantalMasten": 99,
+            "KleurHoofdzeil": "Geel",
+            "BreedteSchip": 999.0,
+            "AanvullendeOpmerking": "Aanvullende opmerkingen 20250502093317"
+          },
+          "AanwezigeApparatuur": [
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "Marifoon",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "",
+                "Nummer": false
+              },
+              "Aantal": 1,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "Portofoon VHF",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "",
+                "Nummer": false
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "AIS",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "",
+                "Nummer": false
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "AIS-SART",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "970",
+                "Nummer": true
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "EPIRB",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "",
+                "Nummer": false
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "EPIRB AIS",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "974",
+                "Nummer": true
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "Inmarsat C",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "DHSD,Data,F/D,Fax,TLX,V/D,V/F,V/F/D,VMS,Voice",
+                "NummerPrefix": "",
+                "Nummer": true
+              },
+              "Aantal": 1,
+              "ComponentList": [
+                {
+                  "classID": "OCS-FW-ATFW-Data-DM-Component",
+                  "CodeGebruik": "DHSD",
+                  "Nummer": "123456789"
+                }
+              ]
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "MF/HF",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "",
+                "Nummer": false
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "Portofoon GMDSS",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "",
+                "Nummer": false
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "Portofoon UHF",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "",
+                "Nummer": false
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "Man overboard",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "",
+                "NummerPrefix": "972",
+                "Nummer": true
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            },
+            {
+              "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "Naam": "Iridium",
+              "ComponentPrototype": {
+                "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+                "CodeGebruik": "DHSD,Data,F/D,Fax,TLX,V/D,V/F,V/F/D,VMS,Voice",
+                "NummerPrefix": "",
+                "Nummer": true
+              },
+              "Aantal": 0,
+              "ComponentList": []
+            }
+          ],
+          "BereikbaarheidInNoodgevallen": {
+            "classID": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+            "TelefoonnummerAanBoord": "8707759141"
+          },
+          "Scheepsnaam": "SCHEEPSNAAM 20250502093251",
+          "SoortSchip": {
+            "classID": "OCS-FW-ATFW-Data-DM-SoortSchip",
+            "Code": "YAT",
+            "Naam": "Jacht"
+          },
+          "ImoNummer": "",
+          "EniNummer": "5212210",
+          "Visserijkenmerk": "",
+          "Brandmerk": "20250502093255",
+          "Tonnage": ""
+        },
+        "Wanbetaling": {
+          "classID": "OCS-FW-ATFW-Data-DM-Wanbetaling",
+          "Factuurnummer": "",
+          "ZienswijzeOntvangen": false
+        },
+        "SoortBindingNLInfo": "U heeft verklaard dat deze melding is gedaan voor het frequentiegebruik ten behoeve van maritiem mobiele communicatie aan boord van een schip dat te boek staat in de openbare registers van het Kadaster.",
+        "Verrekeningsinstantie": {
+          "classID": "OCS-FW-ATFW-Data-DM-Verrekeningsinstantie",
+          "AaicCode": "AA17",
+          "Naam": ""
+        },
+        "pyViewName": "pyConfirm",
+        "pyViewContext": "",
+        "pyConfirmationNote": "Bedankt voor uw aanvraag. Binnen 20 werkdagen ontvangt u uw officiële documenten per post. Deze dient u fysiek bij de zendapparatuur te hebben. Over 5 à 10 minuten kunt u alvast uw documenten inzien en downloaden onder ‘Registraties’ in het menu aan de linkerkant.",
+        "pyWhatsNext": [],
+        "pxUrgencyWork": 20,
+        "pxCreateOperator": "*********",
+        "pxUpdateDateTime": "2025-06-02T09:26:22.759Z",
+        "pxUpdateOperator": "*********",
+        "pxCreateDateTime": "2025-06-02T09:23:32.074Z",
+        "pyStatusWork": "Open-KlaarVoorVerzending",
+        "pyID": "MAR-322001"
+      },
+      "associations": {
+        "follows": false
+      },
+      "hasMoreDescendants": "false",
+      "caseTypeName": "Melding Maritieme Frequentie",
+      "urgency": "20",
+      "ID": "OCS-ATZS-WORK MAR-322001",
+      "participants": [
+        {
+          "firstName": "",
+          "lastName": "",
+          "fullName": "",
+          "ID": "",
+          "email": "test@test.nl"
+        },
+        {
+          "firstName": "*********",
+          "lastName": "*********",
+          "fullName": "*********",
+          "ID": "*********",
+          "email": "*********"
+        }
+      ],
+      "caseTypeID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+      "owner": "*********",
+      "availableChildCaseTypes": [
+        {
+          "name": "Verzending",
+          "links": {
+            "submit": {
+              "rel": "self",
+              "href": "/cases/",
+              "type": "POST",
+              "title": "create child case"
+            }
+          },
+          "ID": "OCS-ATZS-Work-Verzending",
+          "canCreate": false
+        },
+        {
+          "name": "Intake",
+          "links": {
+            "submit": {
+              "rel": "self",
+              "href": "/cases/",
+              "type": "POST",
+              "title": "create child case"
+            }
+          },
+          "ID": "OCS-ATZS-Work-Intake",
+          "canCreate": true
+        }
+      ],
+      "lastUpdatedBy": "*********",
+      "hasNewAttachments": false,
+      "businessID": "MAR-322001",
+      "sla": {
+        "goal": "2025-07-14T09:23:32.074Z",
+        "deadline": "2025-07-28T09:23:32.074Z"
+      },
+      "WidgetsToRefresh": [],
+      "createTime": "2025-06-02T09:23:32.074Z",
+      "createdBy": "*********",
+      "childCases": [
+        {
+          "caseTypeID": "OCS-ATZS-Work-Verzending",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK V-295039",
+              "type": "GET",
+              "title": "Open child case"
+            }
+          },
+          "ID": "OCS-ATZS-WORK V-295039",
+          "Name": "Verzending Ontvangstbevestiging"
+        },
+        {
+          "caseTypeID": "OCS-ATZS-Work-Verzending",
+          "assignments": [
+            {
+              "assigneeInfo": {
+                "ID": "default@AT",
+                "type": "workbasket"
+              },
+              "instructions": "",
+              "processID": "ZendingPost",
+              "urgency": "10",
+              "processName": "Wacht op Bulkverzending",
+              "isMultiStep": "false",
+              "name": "Wachten op verzending",
+              "context": "",
+              "canPerform": "false",
+              "ID": "ASSIGN-WORKBASKET OCS-ATZS-WORK V-296037!ZENDINGPOST"
+            }
+          ],
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK V-296037",
+              "type": "GET",
+              "title": "Open child case"
+            }
+          },
+          "ID": "OCS-ATZS-WORK V-296037",
+          "Name": "Verzending MeldingGebruikFrequentieruimte"
+        }
+      ],
+      "name": "Wijziging melding maritieme frequentie",
+      "stages": [
+        {
+          "entryTime": "2025-06-02T09:23:45.931Z",
+          "name": "Create",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/PRIM0",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "visited_status": "completed",
+          "ID": "PRIM0",
+          "type": "Primary",
+          "transitionType": "create"
+        },
+        {
+          "entryTime": "2025-06-02T09:23:59.876Z",
+          "name": "Indienen Melding",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/PRIM1",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "visited_status": "completed",
+          "ID": "PRIM1",
+          "type": "Primary",
+          "transitionType": "automatic"
+        },
+        {
+          "entryTime": "2025-06-02T09:25:23.872Z",
+          "name": "Fiatteren",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/PRIM6",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "visited_status": "completed",
+          "ID": "PRIM6",
+          "type": "Primary",
+          "transitionType": "automatic"
+        },
+        {
+          "entryTime": "2025-06-02T09:25:23.910Z",
+          "name": "Factuurregels aanmaken",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/PRIM4",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "visited_status": "completed",
+          "ID": "PRIM4",
+          "type": "Primary",
+          "transitionType": "automatic"
+        },
+        {
+          "entryTime": "2025-06-02T09:25:23.914Z",
+          "name": "Verwerken Melding",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/PRIM2",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "visited_status": "completed",
+          "ID": "PRIM2",
+          "type": "Primary",
+          "transitionType": "automatic"
+        },
+        {
+          "entryTime": "2025-06-02T09:25:54.403Z",
+          "name": "Aanmaken Verzendingen",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/PRIM5",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "visited_status": "active",
+          "ID": "PRIM5",
+          "type": "Primary",
+          "transitionType": "manual"
+        },
+        {
+          "name": "Afronden Melding",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/PRIM3",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "visited_status": "future",
+          "ID": "PRIM3",
+          "type": "Primary",
+          "transitionType": "resolution"
+        },
+        {
+          "name": "Facturering Rejection",
+          "visited_status": "future",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/ALT1",
+              "title": "Jump to this stage",
+              "type": "PUT"
+            }
+          },
+          "ID": "ALT1",
+          "type": "Alternate",
+          "transitionType": "manual"
+        },
+        {
+          "name": "Vervallen",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/ALT3",
+              "title": "Jump to this stage",
+              "type": "PUT"
+            }
+          },
+          "visited_status": "future",
+          "ID": "ALT3",
+          "type": "Alternate",
+          "transitionType": "resolution"
+        },
+        {
+          "name": "BackOffice Probleem",
+          "visited_status": "future",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/ALT4",
+              "title": "Jump to this stage",
+              "type": "PUT"
+            }
+          },
+          "ID": "ALT4",
+          "type": "Alternate",
+          "transitionType": "manual"
+        },
+        {
+          "name": "Ambtshalve Intrekking Rejection",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/ALT5",
+              "title": "Jump to this stage",
+              "type": "PUT"
+            }
+          },
+          "visited_status": "future",
+          "ID": "ALT5",
+          "type": "Alternate",
+          "transitionType": "manual"
+        },
+        {
+          "name": "Fiatteren Afwijzing",
+          "visited_status": "future",
+          "links": {
+            "open": {
+              "rel": "self",
+              "href": "/cases/OCS-ATZS-WORK MAR-322001/stages/ALT6",
+              "type": "PUT",
+              "title": "Jump to this stage"
+            }
+          },
+          "ID": "ALT6",
+          "type": "Alternate",
+          "transitionType": "resolution"
+        }
+      ],
+      "caseTypeIcon": "cmicons/pyfolder.svg",
+      "status": "Open-KlaarVoorVerzending",
+      "stageID": "PRIM5",
+      "stageLabel": "Aanmaken Verzendingen",
+      "lastUpdateTime": "2025-06-02T09:26:22.759Z"
+    }
+  },
+  "uiResources": {
+    "resources": {
+      "views": {
+        "pyReview": [
+          {
+            "name": "pyReview",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!PYREVIEW"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ZaakInformatieMijnRDI",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Zaak Informatie Mijn RDI"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": "@W IsMijnAT"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ZaakInformatie",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Zaak Informatie"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": "@W IsNietMijnAT"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ZaakInformatie": [
+          {
+            "name": "ZaakInformatie",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!ZAAKINFORMATIE"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ToonOverzicht",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Toon Overzicht"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ZaakInformatieMijnRDI": [
+          {
+            "name": "ZaakInformatieMijnRDI",
+            "type": "View",
+            "config": {
+              "template": "RDI_ATZS_CaseReview",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!ZAAKINFORMATIEMIJNRDI"
+            },
+            "children": [
+              {
+                "name": "Workarea",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "type": "view",
+                      "name": "pzFlowContainer"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ToonOverzicht",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Toon Overzicht"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ToonOverzicht": [
+          {
+            "name": "ToonOverzicht",
+            "type": "View",
+            "config": {
+              "template": "OneColumn",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!TOONOVERZICHT"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewOverzicht",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Relatie"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "DICTU_OCS_DisplayText",
+                    "config": {
+                      "value": "@P .pyLabel",
+                      "label": "@L Label",
+                      "textToShow": "@L Aanvraag",
+                      "textStyle": "bold"
+                    },
+                    "fieldtype": "Text"
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewOrdernummer",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Ordernummer"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": "@E .Klantkenmerk != ''"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewCertificaat",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Certificaten"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewSoortBindingNL",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Binding met Nederland"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewSoortMelding",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Soort melding"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerScheepsgegevens",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Schip"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerZenderIdentificatie",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review Invoer Zender Identificatie"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewMMSIWrapper",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L MMSI-nummer"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerApparatuurVerplicht",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review InvoerApparatuurVerplicht"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewVerrekeningsinstantie",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review Verrekeningsinstantie"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerApparatuurVrijwillig",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review Invoer Apparatuur Vrijwillig"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerBereikbaarheidInNoodgevallen",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review Invoer BereikbaarheidInNoodgevallen"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerSearchAndRescue",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review Invoer Search And Rescue"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewBeeindigingMeldingGegevensDetails",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review Beeindiging Melding Gegevens Details"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": "@W IsBeeindigenZaak"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewWanbetalingDetails",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Review Wanbetaling Details"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": "@E .RedenBeeindiging == 'Wanbetaling'"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewInvoerZenderIdentificatie": [
+          {
+            "name": "ReviewInvoerZenderIdentificatie",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERZENDERIDENTIFICATIE"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerZenderIdentificatie_ZenderIdentificatie",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Zender"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "context": ".ZenderIdentificatie",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+                      "type": "view",
+                      "displayAs": "Form"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewInvoerZenderIdentificatie_ZenderIdentificatie": [
+          {
+            "name": "ReviewInvoerZenderIdentificatie_ZenderIdentificatie",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "mode": "editable",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!REVIEWINVOERZENDERIDENTIFICATIE_ZENDERIDENTIFICATIE"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "RadioroepnaamNotEditable",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Radioroepnaam"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ATISNummerNotEditable",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L ATIS Nummer"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+                      "type": "view",
+                      "visibility": "@W IsSoortMeldingNietZeevaart"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie"
+          }
+        ],
+        "RadioroepnaamNotEditable": [
+          {
+            "name": "RadioroepnaamNotEditable",
+            "type": "View",
+            "config": {
+              "template": "OneColumn",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!RADIOROEPNAAMNOTEDITABLE"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "DICTU_OCS_DisplayParagraph",
+                    "config": {
+                      "label": "@L Label",
+                      "value": "@P .pyLabel",
+                      "visibility": "@E .Radioroepnaam == ''",
+                      "streamName": "@L ToegewezenDoorAT"
+                    },
+                    "fieldtype": "Text"
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Radioroepnaam",
+                      "label": "@L Radioroepnaam",
+                      "visibility": "@E .Radioroepnaam != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie"
+          }
+        ],
+        "ATISNummerNotEditable": [
+          {
+            "name": "ATISNummerNotEditable",
+            "type": "View",
+            "config": {
+              "mode": "editable",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+              "template": "DefaultForm",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!ATISNUMMERNOTEDITABLE"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "DICTU_OCS_DisplayParagraph",
+                    "config": {
+                      "label": "@L Label",
+                      "value": "@P .pyLabel",
+                      "visibility": "@E .AtisNummer == ''",
+                      "streamName": "@L ToegewezenDoorAT"
+                    },
+                    "fieldtype": "Text"
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .AtisNummer",
+                      "label": "@L ATIS-nummer",
+                      "visibility": "@E .AtisNummer != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie"
+          }
+        ],
+        "ReviewOverzicht": [
+          {
+            "name": "ReviewOverzicht",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWOVERZICHT"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "Overzicht",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Overzicht"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-FW-ATFW-Work-Zaak",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "Overzicht": [
+          {
+            "name": "Overzicht",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!OVERZICHT"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "DisplayNameAndNumberOfAOperatorParty",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Display Name and Number of a operator party"
+                        }
+                      ],
+                      "context": ".RelatieWorkPartyData",
+                      "ruleClass": "Data-Party-Relatie",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "DICTU_OCS_DisplayText",
+                    "config": {
+                      "value": "@P .pyLabel",
+                      "label": "@L Label",
+                      "textToShow": "@L Communicatievoorkeur",
+                      "textStyle": "header",
+                      "visibility": "@E .CalculatedCommunicatieVoorkeur != ''"
+                    },
+                    "fieldtype": "Text"
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .CalculatedCommunicatieVoorkeur",
+                      "label": "@L Digitaal of post",
+                      "readOnly": true
+                    }
+                  },
+                  {
+                    "config": {
+                      "name": "Contactgegevens",
+                      "ruleClass": "OCS-FW-ATFW-Work-Zaak",
+                      "type": "view",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Contactgegevens"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ]
+                    },
+                    "type": "reference"
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "AdresgegevensReadOnlyPartial",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Adresgegevens"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "context": ".AdresDetails",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Adres",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "Contactgegevens": [
+          {
+            "name": "Contactgegevens",
+            "type": "View",
+            "config": {
+              "template": "OneColumn",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!CONTACTGEGEVENS"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "Contactinformatiereadonly",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Contactinformatie"
+                        }
+                      ],
+                      "context": ".RelatieEmailadres",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Contactinformatie",
+                      "type": "view",
+                      "visibility": "@E .CommunicatiePreference.Communicatievoorkeur == 'Digitaal'"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "Contactinformatiereadonly": [
+          {
+            "name": "Contactinformatiereadonly",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Contactinformatie",
+              "template": "Details",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-CONTACTINFORMATIE!VIEW!CONTACTINFORMATIEREADONLY"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Waarde",
+                      "label": "@L Emailadres",
+                      "visibility": "@W IsEmail"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Waarde",
+                      "label": "@L Internetadres (url)",
+                      "visibility": "@W IsURL"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Waarde",
+                      "label": "@L Telefoonnummer",
+                      "visibility": "@E .SoortContactinformatie.Id == '22222222222222222222222222222222'"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Waarde",
+                      "label": "@L Vast telefoonnummer",
+                      "visibility": "@E .SoortContactinformatie.Id == '11111111111111111111111111111111'"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SoortContactinformatie.OrganisatieFax",
+                      "label": "@L Fax van de organisatie",
+                      "visibility": "@W IsFaxnummer"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SoortContactinformatie.pyLabel",
+                      "label": "@L Overig",
+                      "visibility": "@W IsOverigeSoorten"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Contactinformatie"
+          }
+        ],
+        "AdresgegevensReadOnlyPartial": [
+          {
+            "name": "AdresgegevensReadOnlyPartial",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Adres",
+              "template": "Details",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-ADRES!VIEW!ADRESGEGEVENSREADONLYPARTIAL"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "MetSoortAdres",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L MetSoortAdres"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Adres",
+                      "type": "view",
+                      "visibility": "@E .SoortAdres.Naam != ''"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ZonderSoortAdres",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L ZonderSoortAdres"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Adres",
+                      "type": "view",
+                      "visibility": "@E .SoortAdres.Naam == ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Adres"
+          }
+        ],
+        "ZonderSoortAdres": [
+          {
+            "name": "ZonderSoortAdres",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Adres",
+              "template": "Details",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-ADRES!VIEW!ZONDERSOORTADRES"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Adresregel1",
+                      "label": "@L Locatie Omschrijving",
+                      "visibility": "@E .Adresregel1 != ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .NadereSpecificatie",
+                      "label": "@L Locatie omschrijving",
+                      "visibility": "@E .NadereSpecificatie != ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Adresregel2",
+                      "label": "@L Adres"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Adresregel3",
+                      "label": "@L Postcode en woonplaats"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Land.Naam",
+                      "label": "@L Land",
+                      "visibility": "@E .Land.Naam != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Adres"
+          }
+        ],
+        "MetSoortAdres": [
+          {
+            "name": "MetSoortAdres",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Adres",
+              "template": "Details",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-ADRES!VIEW!METSOORTADRES"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SoortAdres.Naam",
+                      "label": "@L Soort adres"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .NadereSpecificatie",
+                      "label": "@L Locatieomschrijving",
+                      "visibility": "@E .NadereSpecificatie != ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Adresregel1",
+                      "label": "@L Locatieomschrijving",
+                      "visibility": "@E .Adresregel1 != ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Adresregel2",
+                      "label": "@L Adres"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Adresregel3",
+                      "label": "@L Postcode en woonplaats"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Land.Naam",
+                      "label": "@L Land",
+                      "visibility": "@E .Land.Naam != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Adres"
+          }
+        ],
+        "DisplayNameAndNumberOfAOperatorParty": [
+          {
+            "name": "DisplayNameAndNumberOfAOperatorParty",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "Data-Party-Relatie",
+              "localeReference": "@LR DATA-PARTY-RELATIE!VIEW!DISPLAYNAMEANDNUMBEROFAOPERATORPARTY"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .pyWorkPartyUri",
+                      "label": "@L Relatienummer",
+                      "readOnly": true
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .pyFullName",
+                      "label": "@L Naam",
+                      "readOnly": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "Data-Party-Relatie"
+          }
+        ],
+        "ReviewCertificaat": [
+          {
+            "name": "ReviewCertificaat",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWCERTIFICAAT"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "InvoerSoortMelding_HoogsteCertificaat",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L InvoerSoortMelding - HoogsteCertificaat"
+                        }
+                      ],
+                      "context": ".HoogsteCertificaat",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Certificaat",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "InvoerSoortMelding_HoogsteCertificaat": [
+          {
+            "name": "InvoerSoortMelding_HoogsteCertificaat",
+            "type": "View",
+            "config": {
+              "template": "Details",
+              "mode": "readonly",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Certificaat",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-CERTIFICAAT!VIEW!INVOERSOORTMELDING_HOOGSTECERTIFICAAT"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Code",
+                      "label": "@L Code"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Naam",
+                      "label": "@L Naam"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Certificaat"
+          }
+        ],
+        "ReviewSoortMelding": [
+          {
+            "name": "ReviewSoortMelding",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWSOORTMELDING"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "Dropdown",
+                    "config": {
+                      "value": "@P .SoortMelding",
+                      "label": "@L Soort Melding",
+                      "placeholder": "Select...",
+                      "listType": "associated",
+                      "datasource": "@ASSOCIATED .SoortMelding"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewInvoerSearchAndRescue": [
+          {
+            "name": "ReviewInvoerSearchAndRescue",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERSEARCHANDRESCUE"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "InvoerSearchAndRescueWidOutInstruction",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Search And Rescue gegevens"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "InvoerSearchAndRescueWidOutInstruction": [
+          {
+            "name": "InvoerSearchAndRescueWidOutInstruction",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERSEARCHANDRESCUEWIDOUTINSTRUCTION"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "InvoerSearchAndRescueWidOutInstruction_Schip",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": ""
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "context": ".Schip",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+                      "type": "view",
+                      "displayAs": "Form"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "InvoerSearchAndRescueWidOutInstruction_Schip": [
+          {
+            "name": "InvoerSearchAndRescueWidOutInstruction_Schip",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "mode": "editable",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!INVOERSEARCHANDRESCUEWIDOUTINSTRUCTION_SCHIP",
+              "NumCols": "1"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "Decimal",
+                    "config": {
+                      "value": "@P .SearchAndRescue.LengteSchip",
+                      "label": "@L Lengte schip (meters)",
+                      "showGroupSeparators": true
+                    }
+                  },
+                  {
+                    "type": "Decimal",
+                    "config": {
+                      "value": "@P .SearchAndRescue.BreedteSchip",
+                      "label": "@L Breedte schip  (meters)",
+                      "showGroupSeparators": true
+                    }
+                  },
+                  {
+                    "type": "Decimal",
+                    "config": {
+                      "value": "@P .SearchAndRescue.DiepteSchip",
+                      "label": "@L Diepte schip  (meters)",
+                      "showGroupSeparators": true
+                    }
+                  },
+                  {
+                    "type": "Integer",
+                    "config": {
+                      "value": "@P .SearchAndRescue.AantalMasten",
+                      "label": "@L Aantal masten"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SearchAndRescue.KleurRompOnderWaterlijn",
+                      "label": "@L Kleur romp onder waterlijn"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SearchAndRescue.KleurRompBovenWaterlijn",
+                      "label": "@L Kleur romp boven waterlijn"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SearchAndRescue.KleurDek",
+                      "label": "@L Kleur dek"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SearchAndRescue.KleurHoofdzeil",
+                      "label": "@L Kleur hoofdzeil"
+                    }
+                  },
+                  {
+                    "type": "Integer",
+                    "config": {
+                      "value": "@P .SearchAndRescue.MaxAantalOpvarenden",
+                      "label": "@L Max aantal opvarenden"
+                    }
+                  },
+                  {
+                    "type": "Integer",
+                    "config": {
+                      "value": "@P .SearchAndRescue.KruissnelheidInKnopen",
+                      "label": "@L Kruissnelheid (knopen)"
+                    }
+                  },
+                  {
+                    "type": "TextArea",
+                    "config": {
+                      "value": "@P .SearchAndRescue.AanvullendeOpmerking",
+                      "label": "@L Aanvullende opmerking"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Schip"
+          }
+        ],
+        "ReviewMMSIWrapper": [
+          {
+            "name": "ReviewMMSIWrapper",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "DefaultForm",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWMMSIWRAPPER",
+              "numberOfColumns": "1"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewMMSI",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L MMSI-nummer"
+                        }
+                      ],
+                      "context": ".ZenderIdentificatie",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+                      "type": "view",
+                      "displayAs": "Form"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewMMSI": [
+          {
+            "name": "ReviewMMSI",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+              "template": "Details",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!REVIEWMMSI"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "RadioButtons",
+                    "config": {
+                      "value": "@P .KeuzeMMSI",
+                      "label": "@L MMSI-nummer",
+                      "listType": "associated",
+                      "datasource": "@ASSOCIATED .KeuzeMMSI",
+                      "inline": true,
+                      "visibility": "@E .MmsiNummer == ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .MmsiNummer",
+                      "label": "@L MMSI-nummer",
+                      "visibility": "@E .MmsiNummer != ''"
+                    }
+                  },
+                  {
+                    "type": "DICTU_OCS_EmptyField",
+                    "config": {
+                      "value": "@P .pyLabel"
+                    },
+                    "fieldtype": "Text"
+                  },
+                  {
+                    "type": "DICTU_OCS_DisplayParagraph",
+                    "config": {
+                      "label": "@L ToegewezenDoorAT",
+                      "value": "@P .pyLabel",
+                      "streamName": "@L ToegewezenDoorAT",
+                      "visibility": "@W IsMmsiNummerGenerated"
+                    },
+                    "fieldtype": "Text"
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie"
+          }
+        ],
+        "ReviewInvoerApparatuurVerplicht": [
+          {
+            "name": "ReviewInvoerApparatuurVerplicht",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "WideNarrowDetails",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERAPPARATUURVERPLICHT"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "AanwezigeApparatuurSection",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Aanwezige apparatuur"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "B",
+                "type": "Region",
+                "children": []
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "AanwezigeApparatuurSection": [
+          {
+            "name": "AanwezigeApparatuurSection",
+            "type": "View",
+            "config": {
+              "template": "RDI_ATZS_ApparatuurLijst",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!AANWEZIGEAPPARATUURSECTION",
+              "referenceProperty": "@L .Schip.AanwezigeApparatuur"
+            },
+            "children": [
+              {
+                "name": "fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "AanwezigeApparatuurSection_Schip",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Schip"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "context": ".Schip",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "AanwezigeApparatuurSection_Schip": [
+          {
+            "name": "AanwezigeApparatuurSection_Schip",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "mode": "editable",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!AANWEZIGEAPPARATUURSECTION_SCHIP"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "AanwezigeApparatuurSectionSchip_AanwezigeApparatuur",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Aanwezige apparatuur"
+                        }
+                      ],
+                      "authorContext": ".AanwezigeApparatuur",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Schip"
+          }
+        ],
+        "AanwezigeApparatuurSectionSchip_AanwezigeApparatuur": [
+          {
+            "name": "AanwezigeApparatuurSectionSchip_AanwezigeApparatuur",
+            "type": "View",
+            "config": {
+              "type": "multirecordlist",
+              "contextClass": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "referenceList": "@P .AanwezigeApparatuur",
+              "name": "AanwezigeApparatuur",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+              "renderMode": "Editable",
+              "template": "SimpleTable",
+              "parentClass": "OCS-FW-ATFW-Data-DM-Schip",
+              "dataRetrievalType": "MANUAL",
+              "propertyLabel": "@L Aanwezige apparatuur",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!AANWEZIGEAPPARATUURSECTIONSCHIP_AANWEZIGEAPPARATUUR",
+              "multiRecordDisplayAs": "fieldGroup"
+            },
+            "children": [
+              {
+                "name": "view",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "pyEdit",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Apparaat",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Schip"
+          }
+        ],
+        "pyEdit": [
+          {
+            "name": "pyEdit",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-APPARAAT!VIEW!PYEDIT"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "Integer",
+                    "config": {
+                      "value": "@P .Aantal",
+                      "label": "@L Aantal"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Naam",
+                      "label": "@L Naam"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "Edit_ComponentList",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Component List"
+                        }
+                      ],
+                      "authorContext": ".ComponentList",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Apparaat",
+                      "type": "view"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .ComponentPrototype.CodeGebruik",
+                      "label": "@L CodeGebruik"
+                    }
+                  },
+                  {
+                    "type": "Checkbox",
+                    "config": {
+                      "caption": "@L Nummer",
+                      "value": "@P .ComponentPrototype.Nummer",
+                      "trueLabel": "@L Yes",
+                      "falseLabel": "@L No"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .ComponentPrototype.NummerPrefix",
+                      "label": "@L NummerPrefix"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Apparaat"
+          },
+          {
+            "name": "pyEdit",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Component",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-COMPONENT!VIEW!PYEDIT"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .CodeGebruik",
+                      "label": "@L Code gebruik"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Nummer",
+                      "label": "@L Nummer"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Component"
+          }
+        ],
+        "Edit_ComponentList": [
+          {
+            "name": "Edit_ComponentList",
+            "type": "View",
+            "config": {
+              "type": "multirecordlist",
+              "contextClass": "OCS-FW-ATFW-Data-DM-Component",
+              "referenceList": "@P .ComponentList",
+              "name": "ComponentList",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Apparaat",
+              "renderMode": "Editable",
+              "template": "SimpleTable",
+              "parentClass": "Data-",
+              "dataRetrievalType": "",
+              "propertyLabel": "@L ",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-APPARAAT!VIEW!EDIT_COMPONENTLIST",
+              "multiRecordDisplayAs": "fieldGroup"
+            },
+            "children": [
+              {
+                "name": "view",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "pyEdit",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Component",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Apparaat"
+          }
+        ],
+        "ReviewWanbetalingDetails": [
+          {
+            "name": "ReviewWanbetalingDetails",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "WideNarrowDetails",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWWANBETALINGDETAILS"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "WanbetalingDetails",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": ""
+                        }
+                      ],
+                      "context": ".Wanbetaling",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Wanbetaling",
+                      "type": "view",
+                      "displayAs": "Form"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "B",
+                "type": "Region",
+                "children": []
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "WanbetalingDetails": [
+          {
+            "name": "WanbetalingDetails",
+            "type": "View",
+            "config": {
+              "template": "OneColumn",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Wanbetaling",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-WANBETALING!VIEW!WANBETALINGDETAILS"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Factuurnummer",
+                      "label": "@L Text Input",
+                      "testId": "2018051115193801621994",
+                      "required": "@W BeeindigingWegensWanbetaling"
+                    }
+                  },
+                  {
+                    "type": "Checkbox",
+                    "config": {
+                      "value": "@P .ZienswijzeOntvangen",
+                      "caption": "Zienswijze ontvangen?",
+                      "testId": "2018051115193801622121"
+                    }
+                  },
+                  {
+                    "type": "Date",
+                    "config": {
+                      "value": "@P .DatumLaatsteBetalingsverzoek",
+                      "label": "@L DatumLaatsteBetalingsverzoek",
+                      "visibility": "@W BeeindigingWegensWanbetaling"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Wanbetaling"
+          }
+        ],
+        "ReviewSoortBindingNL": [
+          {
+            "name": "ReviewSoortBindingNL",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWSOORTBINDINGNL"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextArea",
+                    "config": {
+                      "value": "@P .SoortBindingNLInfo",
+                      "label": "@L Binding met Nederland",
+                      "visibility": "@E .SoortBindingNLInfo != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewOrdernummer": [
+          {
+            "name": "ReviewOrdernummer",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWORDERNUMMER"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Klantkenmerk",
+                      "label": "@L Ordernummer",
+                      "visibility": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewVerrekeningsinstantie": [
+          {
+            "name": "ReviewVerrekeningsinstantie",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWVERREKENINGSINSTANTIE"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Verrekeningsinstantie.Naam",
+                      "label": "@L Verrekeningsinstantie",
+                      "readOnly": true,
+                      "visibility": "@E .Verrekeningsinstantie.AaicCode != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewInvoerApparatuurVrijwillig": [
+          {
+            "name": "ReviewInvoerApparatuurVrijwillig",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "WideNarrowDetails",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERAPPARATUURVRIJWILLIG"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "InvoerApparatuurVrijwillig",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Invoer Apparatuur Vrijwillig"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "B",
+                "type": "Region",
+                "children": []
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "InvoerApparatuurVrijwillig": [
+          {
+            "name": "InvoerApparatuurVrijwillig",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERAPPARATUURVRIJWILLIG"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "InvoerApparatuurVrijwilligWrapper",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Aanwezige apparatuur"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "InvoerApparatuurVrijwilligWrapper": [
+          {
+            "name": "InvoerApparatuurVrijwilligWrapper",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "DICTU_OCS_FormWithColumns",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERAPPARATUURVRIJWILLIGWRAPPER",
+              "numberOfColumns": "2"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "InvoerApparatuurVerplichtInColumn2",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Invoer Apparatuur Verplicht In Column 2"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "InvoerApparatuurVerplichtInColumn2": [
+          {
+            "name": "InvoerApparatuurVerplichtInColumn2",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "DefaultForm",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERAPPARATUURVERPLICHTINCOLUMN2",
+              "NumCols": "1"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "Dropdown",
+                    "config": {
+                      "value": "@P .ZenderIdentificatie.GenereerAtisMijnRDI",
+                      "label": "@L ATIS-code",
+                      "placeholder": "@L Selecteer...",
+                      "listType": "associated",
+                      "datasource": "@ASSOCIATED .ZenderIdentificatie.GenereerAtisMijnRDI",
+                      "visibility": "@W ZeevaartMelding",
+                      "helperText": "@L Vaart u over de binnenwateren? Kies ‘Ja’ als u over de binnenwateren vaart. U ontvangt een ATIS-code voor uw marifoon. Kies ‘Nee’ als u niet over de binnenwateren vaart.",
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "Dropdown",
+                    "config": {
+                      "label": "@L TOR/SELCAL-nummer",
+                      "placeholder": "@L Selecteer...",
+                      "listType": "associated",
+                      "datasource": "@ASSOCIATED .GenereerTorSelcalMijnRDI",
+                      "value": "@P .GenereerTorSelcalMijnRDI",
+                      "helperText": "@L Heeft u voor uw MF/HF apparatuur een TOR/SELCAL-nummer nodig? Kies ‘Ja’ als u een TOR/SELCAL-nummer nodig heeft voor uw MF/HF apparatuur. Kies ‘Nee’ als u geen TOR/SELCAL-nummer nodig heeft.",
+                      "visibility": "@W IsApparatuurExtraNodigTORSELCAL",
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "GegenereerdeNummers",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Gegenereerde nummers"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": "@W IsGegenereerdeNummersVisible"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "GegenereerdeNummers": [
+          {
+            "name": "GegenereerdeNummers",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!GEGENEREERDENUMMERS",
+              "NumCols": "1"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .ZenderIdentificatie.RadioRoepnaamBinnenvaart",
+                      "label": "@L Roepnaam Binnenvaart",
+                      "visibility": "@E .ZenderIdentificatie.RadioRoepnaamBinnenvaart != ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .ZenderIdentificatie.AtisNummer",
+                      "label": "@L ATIS-nummer",
+                      "visibility": "@W IsAtisNummerVisible"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .ZenderIdentificatie.TorSelcalNummer",
+                      "label": "@L TOR/selcal-nummer",
+                      "visibility": "@E .ZenderIdentificatie.TorSelcalNummer != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewInvoerBereikbaarheidInNoodgevallen": [
+          {
+            "name": "ReviewInvoerBereikbaarheidInNoodgevallen",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERBEREIKBAARHEIDINNOODGEVALLEN"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerBereikbaarheidInNoodgevallen_SchipBereikbaarheid",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Bereikbaarheid in noodgevallen"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": true
+                        }
+                      ],
+                      "context": ".Schip.BereikbaarheidInNoodgevallen",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+                      "type": "view",
+                      "displayAs": "Form"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ReviewInvoerBereikbaarheidInNoodgevallen_SchipBereikbaarheid": [
+          {
+            "name": "ReviewInvoerBereikbaarheidInNoodgevallen_SchipBereikbaarheid",
+            "type": "View",
+            "config": {
+              "template": "DefaultForm",
+              "mode": "editable",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-BEREIKBAARHEIDINNOODGEVALLEN!VIEW!REVIEWINVOERBEREIKBAARHEIDINNOODGEVALLEN_SCHIPBEREIKBAARHEID"
+            },
+            "children": [
+              {
+                "name": "Fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .TelefoonnummerAanBoord",
+                      "label": "@L Telefoonnummer aan boord",
+                      "readOnly": true,
+                      "visibility": "@E .TelefoonnummerAanBoord != ''"
+                    }
+                  },
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ReviewInvoerBereikbaarheidInNoodgevallenBereikbaarheidInNood_2",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Telefoonnummer thuisfront (24 uur bereikbaarheid, max 5)"
+                        }
+                      ],
+                      "authorContext": ".Telefoonnummersthuisfront",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+                      "type": "view",
+                      "visibility": "@W IsTelefoonnummerThuisfrontAanwezigMijnRDI"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen"
+          }
+        ],
+        "ReviewInvoerBereikbaarheidInNoodgevallenBereikbaarheidInNood_2": [
+          {
+            "name": "ReviewInvoerBereikbaarheidInNoodgevallenBereikbaarheidInNood_2",
+            "type": "View",
+            "config": {
+              "type": "multirecordlist",
+              "contextClass": "SingleValue-Text",
+              "referenceList": "@P .Telefoonnummersthuisfront",
+              "name": "Telefoonnummersthuisfront",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+              "renderMode": "ReadOnly",
+              "template": "SimpleTable",
+              "children": [
+                {
+                  "name": "Columns",
+                  "type": "Region",
+                  "children": [
+                    {
+                      "type": "TextInput",
+                      "config": {
+                        "value": "@P .Telefoonnummer",
+                        "label": "@L Telefoonnummer"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "parentClass": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+              "dataRetrievalType": "MANUAL",
+              "propertyLabel": "@L Telefoonnummersthuisfront",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-BEREIKBAARHEIDINNOODGEVALLEN!VIEW!REVIEWINVOERBEREIKBAARHEIDINNOODGEVALLENBEREIKBAARHEIDINNOOD_2",
+              "multiRecordDisplayAs": "table"
+            },
+            "classID": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen"
+          }
+        ],
+        "ReviewInvoerScheepsgegevens": [
+          {
+            "name": "ReviewInvoerScheepsgegevens",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERSCHEEPSGEGEVENS"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ScheepsIdentificatie",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Schip"
+                        }
+                      ],
+                      "context": ".Schip",
+                      "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+                      "type": "view",
+                      "displayAs": "Form"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "ScheepsIdentificatie": [
+          {
+            "name": "ScheepsIdentificatie",
+            "type": "View",
+            "config": {
+              "template": "OneColumn",
+              "ruleClass": "OCS-FW-ATFW-Data-DM-Schip",
+              "localeReference": "@LR OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!SCHEEPSIDENTIFICATIE"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Scheepsnaam",
+                      "label": "@L Scheepsnaam"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .SoortSchip.Naam",
+                      "label": "@L Soort Schip"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Visserijkenmerk",
+                      "label": "@L Visserijkenmerk",
+                      "testId": "2017113016344103022345",
+                      "visibility": "@E .SoortSchip.Code == 'FV' && .Visserijkenmerk != ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .EniNummer",
+                      "label": "@L ENI-nummer",
+                      "visibility": "@E .EniNummer != ''"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .ImoNummer",
+                      "label": "@L IMO-nummer",
+                      "testId": "2017113016344103034697",
+                      "visibility": "@E .ImoNummer != ''"
+                    }
+                  },
+                  {
+                    "type": "Dropdown",
+                    "config": {
+                      "value": "@P .Vaargebied",
+                      "label": "@L Vaargebied",
+                      "placeholder": "Select...",
+                      "listType": "associated",
+                      "datasource": "@ASSOCIATED .Vaargebied",
+                      "visibility": "@W IsVaargebiedVisible"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "value": "@P .Brandmerk",
+                      "label": "@L Brandmerk",
+                      "visibility": "@E .Brandmerk != ''"
+                    }
+                  },
+                  {
+                    "type": "Integer",
+                    "config": {
+                      "value": "@P .Tonnage",
+                      "label": "@L Gross tonnage",
+                      "showGroupSeparators": true,
+                      "visibility": "@E .Tonnage != ''"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-FW-ATFW-Data-DM-Schip"
+          }
+        ],
+        "ReviewBeeindigingMeldingGegevensDetails": [
+          {
+            "name": "ReviewBeeindigingMeldingGegevensDetails",
+            "type": "View",
+            "config": {
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "template": "Details",
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWBEEINDIGINGMELDINGGEGEVENSDETAILS"
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "BeeindigingMeldingGegevens",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L BeeindigingMeldingGegevens"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "pzFlowContainer": [
+          {
+            "name": "pzFlowContainer",
+            "type": "View",
+            "config": {
+              "ruleClass": "@baseclass"
+            },
+            "children": [
+              {
+                "type": "FlowContainer",
+                "config": {
+                  "name": "workarea",
+                  "routingInfo": "@ROUTING_INFO"
+                },
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "type": "view",
+                      "name": "@P .pyViewName",
+                      "context": "@P .pyViewContext"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "pyConfirm": [
+          {
+            "name": "pyConfirm",
+            "type": "View",
+            "config": {
+              "template": "Confirmation",
+              "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+              "showLabel": false,
+              "label": "@L Confirmation",
+              "readOnly": true,
+              "datasource": {
+                "source": "@DATASOURCE .pyWhatsNext",
+                "fields": {
+                  "label": "@P .pyDescription"
+                }
+              },
+              "localeReference": "@LR OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!PYCONFIRM",
+              "showTasks": false,
+              "configAlternateDesignSystem": {
+                "showCloseButton": true,
+                "confirmationNote": "@P .pyConfirmationNote"
+              }
+            },
+            "children": [
+              {
+                "name": "A",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "reference",
+                    "config": {
+                      "name": "ToonOverzicht",
+                      "inheritedProps": [
+                        {
+                          "prop": "label",
+                          "value": "@L Toon Overzicht"
+                        },
+                        {
+                          "prop": "showLabel",
+                          "value": false
+                        }
+                      ],
+                      "ruleClass": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+                      "type": "view",
+                      "visibility": "@W IsInzienZaak"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "pyCaseSummary": [
+          {
+            "name": "pyCaseSummary",
+            "type": "View",
+            "config": {
+              "template": "CaseSummary",
+              "localeReference": "@LR WORK-!VIEW!PYCASESUMMARY",
+              "ruleClass": "Work-"
+            },
+            "children": [
+              {
+                "name": "Primary fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "Decimal",
+                    "config": {
+                      "label": "@L Urgency",
+                      "value": "@P .pxUrgencyWork"
+                    }
+                  },
+                  {
+                    "type": "TextInput",
+                    "config": {
+                      "label": "@L Work Status",
+                      "value": "@P .pyStatusWork"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Secondary fields",
+                "type": "Region",
+                "children": [
+                  {
+                    "type": "CaseOperator",
+                    "config": {
+                      "label": "@L Create operator",
+                      "createLabel": "@L Created",
+                      "updateLabel": "@L Updated",
+                      "updateDateTime": "@P .pxUpdateDateTime",
+                      "createDateTime": "@P .pxCreateDateTime",
+                      "updateOperator": "@USER .pxUpdateOperator",
+                      "createOperator": "@USER .pxCreateOperator"
+                    }
+                  },
+                  {
+                    "type": "CaseOperator",
+                    "config": {
+                      "label": "@L Update operator",
+                      "createLabel": "@L Created",
+                      "updateLabel": "@L Updated",
+                      "updateDateTime": "@P .pxUpdateDateTime",
+                      "createDateTime": "@P .pxCreateDateTime",
+                      "updateOperator": "@USER .pxUpdateOperator",
+                      "createOperator": "@USER .pxCreateOperator"
+                    }
+                  }
+                ]
+              }
+            ],
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ]
+      },
+      "datapages": {
+        "D_DropdownOptiesList": {
+          "parameters": [
+            {
+              "name": "Categorie",
+              "defaultValue": ""
+            }
+          ],
+          "classID": "OCS-FW-ATFW-Data-DM-DropdownOpties",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": true,
+          "structure": "list"
+        },
+        "D_OphalenCommunicatievoorkeur": {
+          "parameters": [
+            {
+              "name": "Relatienummer",
+              "defaultValue": ""
+            }
+          ],
+          "classID": "OCS-FW-ATFW-Data-DM-CommunicatieVoorkeur",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "page",
+          "refreshStrategy": {
+            "type": "reloadOncePerInteraction"
+          }
+        },
+        "D_GeefEmailadresRelatie": {
+          "parameters": [
+            {
+              "name": "RelatieId",
+              "defaultValue": ""
+            }
+          ],
+          "classID": "OCS-FW-ATFW-Data-DM-Contactinformatie",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "page",
+          "refreshStrategy": {
+            "type": "reloadOncePerInteraction"
+          }
+        },
+        "D_TonenSoortenContactInformatie": {
+          "classID": "OCS-FW-ATFW-Data-DM-SoortContactInformatie",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "list",
+          "refreshStrategy": {
+            "type": "reloadIfOlderThan",
+            "timeoutSecs": 86400
+          }
+        },
+        "D_AdresVanSoort": {
+          "parameters": [
+            {
+              "name": "Relatienummer",
+              "defaultValue": ""
+            },
+            {
+              "name": "SoortAdres1",
+              "defaultValue": ""
+            },
+            {
+              "name": "SoortAdres2",
+              "defaultValue": ""
+            },
+            {
+              "name": "SoortAdres3",
+              "defaultValue": ""
+            }
+          ],
+          "classID": "OCS-FW-ATFW-Data-DM-Adres",
+          "mode": "editable",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "page"
+        },
+        "D_TonenSoortenAdressen": {
+          "classID": "OCS-FW-ATFW-Data-DM-SoortAdres",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "list",
+          "refreshStrategy": {
+            "type": "reloadOncePerInteraction"
+          }
+        },
+        "D_TonenLanden": {
+          "classID": "OCS-FW-ATFW-Data-DM-Land",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "list",
+          "refreshStrategy": {
+            "type": "reloadIfOlderThan",
+            "timeoutSecs": 86400
+          }
+        },
+        "D_RetrieveRelatieWPData": {
+          "parameters": [
+            {
+              "name": "WorkPartyRole",
+              "defaultValue": ""
+            }
+          ],
+          "classID": "Data-Party-Relatie",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "page"
+        },
+        "D_HoogsteCertificaatVanRelatie": {
+          "parameters": [
+            {
+              "name": "Relatienummer",
+              "defaultValue": ""
+            }
+          ],
+          "classID": "OCS-FW-ATFW-Data-DM-Certificaat",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "page",
+          "refreshStrategy": {
+            "type": "reloadIfOlderThan",
+            "timeoutSecs": 300
+          }
+        },
+        "D_TonenVerrekeningsinstanties": {
+          "classID": "OCS-FW-ATFW-Data-DM-Verrekeningsinstantie",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "list",
+          "refreshStrategy": {
+            "type": "reloadIfOlderThan",
+            "timeoutSecs": 3600
+          }
+        },
+        "D_AlleSoortenSchepen": {
+          "classID": "OCS-FW-ATFW-Data-DM-SoortSchip",
+          "mode": "readonly",
+          "isSearchable": false,
+          "isQueryable": false,
+          "structure": "list",
+          "refreshStrategy": {
+            "type": "reloadIfOlderThan",
+            "timeoutSecs": 3600
+          }
+        }
+      },
+      "paragraphs": {
+        "Klantkenmerk_additionalInfo": [
+          {
+            "content": "<p>Wilt u als bedrijf of organisatie op de factuur uw eigen factuurreferentie? Noteer deze dan in het veld \"Ordernummer\"</p>",
+            "name": "Klantkenmerk_additionalInfo",
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie"
+          }
+        ],
+        "Radioroepnaam_additionalInfo": [
+          {
+            "content": "<p>Roepnaam van over te nemen schip</p>",
+            "name": "Radioroepnaam_additionalInfo",
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie"
+          }
+        ],
+        "KeuzeMMSI_additionalInfo": [
+          {
+            "content": "<p>In de volgende gevallen heeft u een MMSI-nummer nodig:</p>\n<p>&nbsp;</p>\n<p>&bull; Als u een AIS aan boord heeft.<br>&bull; Als u gebruik wil maken van de VHF-DSC optie in uw marifoon. (Let op! U moet hiervoor in het bezit zijn van minimaal een shortrange certificate voor Pleziervaart of een Marcom B bedieningscertificaat voor Binnenvaart).&nbsp;</p>",
+            "name": "KeuzeMMSI_additionalInfo",
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie"
+          }
+        ],
+        "AaicCode__additionalInfo": [
+          {
+            "content": "<p>Als u een contract heeft afgesloten met een verrekeningsinstantie (ook wel Accounting Authority of AA), dan vult u hier in welke dat is. Een verrekeningsinstantie is een tussenpersoon die het betalingsverkeer afhandelt voor het gebruik van satellietcommunicatie-diensten, bijvoorbeeld als u via het satellietnetwerk van INMARSAT communiceert met iemand aan de wal. De kosten betaalt u dan niet rechtstreeks aan INMARSAT, maar via de tussenpersoon; de verrekeningsinstantie.&nbsp;</p>",
+            "name": "AaicCode__additionalInfo",
+            "classID": "OCS-FW-ATFW-Data-DM-Verrekeningsinstantie"
+          }
+        ],
+        "EniNummer_additionalInfo": [
+          {
+            "content": "<p>Een ENI-nummer is het unieke Europese scheepsidentificatie nummer welke bestaat uit 7 of 8 cijfers en behoort bij het schip.</p>",
+            "name": "EniNummer_additionalInfo",
+            "classID": "OCS-FW-ATFW-Data-DM-Schip"
+          }
+        ],
+        "Brandmerk_additionalInfo": [
+          {
+            "content": "<p>Vul deze vraag alleen in als uw vaartuig geregistreerd staat bij het Kadaster.</p>",
+            "name": "Brandmerk_additionalInfo",
+            "classID": "OCS-FW-ATFW-Data-DM-Schip"
+          }
+        ]
+      },
+      "fields": {
+        "RedenBeeindiging": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "displayAs": "pxDropdown",
+            "label": "Reden Beëindiging",
+            "datasource": {
+              "tableType": "DataPage",
+              "tableClass": "OCS-FW-ATFW-Data-DM-DropdownOpties",
+              "name": "D_DropdownOptiesList",
+              "propertyForDisplayText": "@P .Optie",
+              "propertyForValue": "@P .Optie",
+              "parameters": [
+                {
+                  "name": "Categorie",
+                  "value": "@P .RedenBeeindigenCategorie"
+                }
+              ]
+            }
+          }
+        ],
+        "Klantkenmerk": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "maxLength": 30,
+            "displayAs": "pxTextInput",
+            "additionalInformation": "@PARAGRAPH Klantkenmerk_additionalInfo",
+            "label": "Klantkenmerk"
+          }
+        ],
+        "pyLabel": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "maxLength": 64,
+            "displayAs": "pxTextInput",
+            "expectedLength": 60,
+            "label": "Label",
+            "isDeclarativeTarget": true
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+            "type": "Text",
+            "maxLength": 64,
+            "displayAs": "FixedSizeForInput",
+            "expectedLength": 20,
+            "label": "Label"
+          }
+        ],
+        "ZenderIdentificatie": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+            "label": "Zender Identificatie"
+          }
+        ],
+        "Radioroepnaam": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "additionalInformation": "@PARAGRAPH Radioroepnaam_additionalInfo",
+            "label": "Radioroepnaam"
+          }
+        ],
+        "AtisNummer": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "ATIS-nummer"
+          }
+        ],
+        "CalculatedCommunicatieVoorkeur": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "maxLength": 256,
+            "displayAs": "pxTextInput",
+            "label": "Calculated Communicatie Voorkeur",
+            "isDeclarativeTarget": true
+          }
+        ],
+        "Communicatievoorkeur": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-CommunicatieVoorkeur",
+            "type": "Text",
+            "displayAs": "pxDropdown",
+            "label": "Communicatievoorkeur",
+            "datasource": {
+              "tableType": "PromptList",
+              "records": [
+                {
+                  "key": "PerPost",
+                  "value": "Per post"
+                },
+                {
+                  "key": "Digitaal",
+                  "value": "Digitaal"
+                }
+              ]
+            }
+          }
+        ],
+        "CommunicatiePreference": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "copy",
+            "pageClass": "OCS-FW-ATFW-Data-DM-CommunicatieVoorkeur",
+            "label": "Communicatie preference",
+            "datasource": {
+              "name": "D_OphalenCommunicatievoorkeur",
+              "parameters": {
+                "Relatienummer": "@P .pyCustomer"
+              }
+            }
+          }
+        ],
+        "pyCustomer": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "maxLength": 128,
+            "expectedLength": 32,
+            "label": "Customer ID"
+          }
+        ],
+        "RelatieEmailadres": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "refer",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Contactinformatie",
+            "label": "Relatie Emailadres",
+            "datasource": {
+              "name": "D_GeefEmailadresRelatie",
+              "parameters": {
+                "RelatieId": "@P .pyWorkParty(Relatie).pyID"
+              }
+            }
+          }
+        ],
+        "pyID": [
+          {
+            "classID": "Data-Party-Relatie",
+            "type": "Text",
+            "label": "Id"
+          },
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "maxLength": 32,
+            "displayAs": "Scalar",
+            "expectedLength": 22,
+            "label": "Case ID",
+            "isClassKey": true
+          }
+        ],
+        "pyWorkParty(Relatie)": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "",
+            "pageClass": "Data-Party",
+            "label": "Parties"
+          }
+        ],
+        "Id": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SoortContactInformatie",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Id"
+          }
+        ],
+        "SoortContactinformatie": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Contactinformatie",
+            "type": "Page",
+            "dataRetrievalType": "refer",
+            "pageClass": "OCS-FW-ATFW-Data-DM-SoortContactInformatie",
+            "label": "Soort Contactinformatie",
+            "datasource": {
+              "name": "D_TonenSoortenContactInformatie"
+            }
+          }
+        ],
+        "Waarde": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Contactinformatie",
+            "type": "Text",
+            "maxLength": 350,
+            "displayAs": "pxTextInput",
+            "label": "Waarde"
+          }
+        ],
+        "AdresDetails": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "copy",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Adres",
+            "label": "Adres Details",
+            "datasource": {
+              "name": "D_AdresVanSoort",
+              "parameters": {
+                "Relatienummer": "@P .pyCustomer",
+                "SoortAdres1": "Correspondentieadres",
+                "SoortAdres2": "Vestigingsadres",
+                "SoortAdres3": ""
+              }
+            }
+          }
+        ],
+        "Naam": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SoortAdres",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Naam"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Land",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Naam"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Certificaat",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Naam"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Naam"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Verrekeningsinstantie",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Naam"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SoortSchip",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Naam"
+          }
+        ],
+        "SoortAdres": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Adres",
+            "type": "Page",
+            "dataRetrievalType": "copy",
+            "pageClass": "OCS-FW-ATFW-Data-DM-SoortAdres",
+            "label": "Soort Adres",
+            "datasource": {
+              "name": "D_TonenSoortenAdressen"
+            }
+          }
+        ],
+        "Land": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Adres",
+            "type": "Page",
+            "dataRetrievalType": "copy",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Land",
+            "label": "Land",
+            "datasource": {
+              "name": "D_TonenLanden"
+            }
+          }
+        ],
+        "Adresregel2": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Adres",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Adresregel 2",
+            "isDeclarativeTarget": true
+          }
+        ],
+        "Adresregel3": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Adres",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Adresregel 3",
+            "isDeclarativeTarget": true
+          }
+        ],
+        "Adresregel1": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Adres",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Adresregel 1",
+            "isDeclarativeTarget": true
+          }
+        ],
+        "NadereSpecificatie": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Adres",
+            "type": "Text",
+            "maxLength": 35,
+            "displayAs": "pxTextInput",
+            "label": "Nadere Specificatie"
+          }
+        ],
+        "RelatieWorkPartyData": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "copy",
+            "pageClass": "Data-Party-Relatie",
+            "label": "Relatie Work Party Data",
+            "datasource": {
+              "name": "D_RetrieveRelatieWPData",
+              "parameters": {
+                "WorkPartyRole": "Relatie"
+              }
+            }
+          }
+        ],
+        "pyWorkPartyUri": [
+          {
+            "classID": "Data-Party-Relatie",
+            "type": "Text",
+            "expectedLength": 30,
+            "label": "Participant ID",
+            "isClassKey": true
+          }
+        ],
+        "pyFullName": [
+          {
+            "classID": "Data-Party-Relatie",
+            "type": "Text",
+            "label": "Full Name"
+          }
+        ],
+        "HoogsteCertificaat": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "refer",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Certificaat",
+            "label": "HoogsteCertificaat",
+            "datasource": {
+              "name": "D_HoogsteCertificaatVanRelatie",
+              "parameters": {
+                "Relatienummer": "@P .pyCustomer"
+              }
+            }
+          }
+        ],
+        "Code": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Certificaat",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Code"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SoortSchip",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Code"
+          }
+        ],
+        "SoortMelding": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "displayAs": "pxDropdown",
+            "label": "Soort Melding",
+            "datasource": {
+              "tableType": "PromptList",
+              "records": [
+                {
+                  "key": "Pleziervaart",
+                  "value": "Pleziervaart"
+                },
+                {
+                  "key": "Binnenvaart",
+                  "value": "Binnenvaart"
+                },
+                {
+                  "key": "Zeevaart",
+                  "value": "Zeevaart"
+                }
+              ]
+            }
+          }
+        ],
+        "Schip": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Schip",
+            "label": "Schip"
+          }
+        ],
+        "KruissnelheidInKnopen": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Integer",
+            "displayAs": "pxInteger",
+            "label": "Kruissnelheid (knopen)",
+            "validateAs": "GetalMetEenKomma1AK"
+          }
+        ],
+        "SearchAndRescue": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Page",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "label": "SearchAndRescue"
+          }
+        ],
+        "KleurRompBovenWaterlijn": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Text",
+            "maxLength": 20,
+            "displayAs": "pxTextInput",
+            "label": "Kleur romp boven waterlijn"
+          }
+        ],
+        "KleurDek": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Text",
+            "maxLength": 20,
+            "displayAs": "pxTextInput",
+            "label": "Kleur dek"
+          }
+        ],
+        "LengteSchip": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Decimal",
+            "displayAs": "pxNumber",
+            "label": "Lengte schip",
+            "validateAs": "GetalMetEenKomma1AK"
+          }
+        ],
+        "DiepteSchip": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Decimal",
+            "displayAs": "pxNumber",
+            "label": "Diepte schip",
+            "validateAs": "GetalMetEenKomma1AK"
+          }
+        ],
+        "KleurRompOnderWaterlijn": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Text",
+            "maxLength": 20,
+            "displayAs": "pxTextInput",
+            "label": "Kleur romp onder waterlijn"
+          }
+        ],
+        "MaxAantalOpvarenden": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Integer",
+            "displayAs": "pxInteger",
+            "label": "Max aantal opvarenden",
+            "validateAs": "GetalMetEenKomma1AK"
+          }
+        ],
+        "AantalMasten": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Integer",
+            "displayAs": "pxInteger",
+            "label": "Aantal masten",
+            "validateAs": "GetalMetEenKomma1AK"
+          }
+        ],
+        "KleurHoofdzeil": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Text",
+            "maxLength": 20,
+            "displayAs": "pxTextInput",
+            "label": "Kleur hoofdzeil"
+          }
+        ],
+        "BreedteSchip": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Decimal",
+            "displayAs": "pxNumber",
+            "label": "Breedte schip",
+            "validateAs": "GetalMetEenKomma1AK"
+          }
+        ],
+        "AanvullendeOpmerking": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-SearchAndRescue",
+            "type": "Text",
+            "maxLength": 2000,
+            "displayAs": "pxTextArea",
+            "label": "Aanvullende opmerking"
+          }
+        ],
+        "MmsiNummer": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "MMSI-nummer"
+          }
+        ],
+        "KeuzeMMSI": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-ZenderIdentificatie",
+            "type": "Text",
+            "displayAs": "pxRadioButtons",
+            "additionalInformation": "@PARAGRAPH KeuzeMMSI_additionalInfo",
+            "label": "KeuzeMMSI",
+            "datasource": {
+              "tableType": "PromptList",
+              "records": [
+                {
+                  "key": "true",
+                  "value": "Ja, ik wil een MMSI-nummer."
+                },
+                {
+                  "key": "Nee",
+                  "value": "Nee, ik wil geen MMSI-nummer."
+                }
+              ]
+            }
+          }
+        ],
+        "AanwezigeApparatuur": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Page List",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Apparaat",
+            "label": "Aanwezige apparatuur"
+          }
+        ],
+        "CodeGebruik": [
+          {
+            "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "CodeGebruik"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Component",
+            "type": "Text",
+            "maxLength": 10,
+            "displayAs": "pxTextInput",
+            "label": "Code gebruik",
+            "datasource": {
+              "tableType": "LocalList"
+            }
+          }
+        ],
+        "ComponentPrototype": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+            "type": "Page",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+            "label": "ComponentPrototype"
+          }
+        ],
+        "NummerPrefix": [
+          {
+            "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "NummerPrefix"
+          }
+        ],
+        "Aantal": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+            "type": "Integer",
+            "displayAs": "pxInteger",
+            "label": "Aantal"
+          }
+        ],
+        "Nummer": [
+          {
+            "classID": "OCS-FW-ATFW-Data-TM-ComponentPrototype",
+            "type": "True-False",
+            "displayAs": "pxCheckbox",
+            "label": "Nummer"
+          },
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Component",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Nummer"
+          }
+        ],
+        "ComponentList": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Apparaat",
+            "type": "Page List",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Component",
+            "label": "Component List"
+          }
+        ],
+        "Wanbetaling": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Wanbetaling",
+            "label": "Wanbetaling"
+          }
+        ],
+        "Factuurnummer": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Wanbetaling",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "Factuurnummer"
+          }
+        ],
+        "ZienswijzeOntvangen": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Wanbetaling",
+            "type": "True-False",
+            "displayAs": "pxCheckbox",
+            "label": "ZienswijzeOntvangen"
+          }
+        ],
+        "SoortBindingNLInfo": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "displayAs": "pxTextArea",
+            "label": "Soort Binding NL Info"
+          }
+        ],
+        "AaicCode": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Verrekeningsinstantie",
+            "type": "Text",
+            "displayAs": "pxDropdown",
+            "additionalInformation": "@PARAGRAPH AaicCode__additionalInfo",
+            "label": "AAIC code",
+            "datasource": {
+              "tableType": "DataPage",
+              "tableClass": "OCS-FW-ATFW-Data-DM-Verrekeningsinstantie",
+              "name": "D_TonenVerrekeningsinstanties",
+              "propertyForDisplayText": "@P .Naam",
+              "propertyForValue": "@P .AaicCode",
+              "parameters": []
+            },
+            "isClassKey": true
+          }
+        ],
+        "Verrekeningsinstantie": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page",
+            "dataRetrievalType": "copy",
+            "pageClass": "OCS-FW-ATFW-Data-DM-Verrekeningsinstantie",
+            "label": "Verrekeningsinstantie",
+            "datasource": {
+              "name": "D_TonenVerrekeningsinstanties"
+            }
+          }
+        ],
+        "BereikbaarheidInNoodgevallen": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Page",
+            "dataRetrievalType": "manual",
+            "pageClass": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+            "label": "Bereikbaarheid In Noodgevallen"
+          }
+        ],
+        "TelefoonnummerAanBoord": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-BereikbaarheidInNoodgevallen",
+            "type": "Text",
+            "maxLength": 20,
+            "displayAs": "pxTextInput",
+            "label": "Telefoonnummer Aan Boord"
+          }
+        ],
+        "Scheepsnaam": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Text",
+            "maxLength": 40,
+            "displayAs": "pxTextInput",
+            "label": "Scheepsnaam"
+          }
+        ],
+        "SoortSchip": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Page",
+            "dataRetrievalType": "copy",
+            "pageClass": "OCS-FW-ATFW-Data-DM-SoortSchip",
+            "label": "Soort Schip",
+            "datasource": {
+              "name": "D_AlleSoortenSchepen"
+            }
+          }
+        ],
+        "ImoNummer": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Text",
+            "maxLength": 7,
+            "displayAs": "pxTextInput",
+            "label": "IMO-nummer"
+          }
+        ],
+        "EniNummer": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Text",
+            "maxLength": 8,
+            "displayAs": "pxTextInput",
+            "expectedLength": 8,
+            "additionalInformation": "@PARAGRAPH EniNummer_additionalInfo",
+            "label": "ENI-nummer"
+          }
+        ],
+        "Visserijkenmerk": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Text",
+            "maxLength": 6,
+            "displayAs": "pxTextInput",
+            "expectedLength": 3,
+            "label": "Visserijkenmerk"
+          }
+        ],
+        "Brandmerk": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Text",
+            "maxLength": 16,
+            "displayAs": "pxTextInput",
+            "additionalInformation": "@PARAGRAPH Brandmerk_additionalInfo",
+            "label": "Brandmerk"
+          }
+        ],
+        "Tonnage": [
+          {
+            "classID": "OCS-FW-ATFW-Data-DM-Schip",
+            "type": "Integer",
+            "displayAs": "pxInteger",
+            "expectedLength": 6,
+            "label": "Grosstonnage"
+          }
+        ],
+        "pyViewName": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "pyViewName"
+          }
+        ],
+        "pyViewContext": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "displayAs": "pxTextInput",
+            "label": "pyViewContext"
+          }
+        ],
+        "pyConfirmationNote": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "label": "Confirmation Note"
+          }
+        ],
+        "pyWhatsNext": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Page List",
+            "dataRetrievalType": "manual",
+            "pageClass": "@baseclass",
+            "label": "WhatsNext"
+          }
+        ],
+        "pyDescription": [
+          {
+            "classID": "@baseclass",
+            "type": "Text",
+            "displayAs": "pzAccel_DescripSwitch",
+            "label": "Description"
+          }
+        ],
+        "pxUrgencyWork": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Decimal",
+            "displayAs": "pxNumber",
+            "label": "Urgency",
+            "isDeclarativeTarget": true,
+            "isSpecial": true
+          }
+        ],
+        "pxCreateOperator": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "displayAs": "HarnessOperator",
+            "expectedLength": 40,
+            "label": "Create Operator",
+            "isSpecial": true,
+            "isReadOnly": true
+          }
+        ],
+        "pxUpdateDateTime": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Date Time",
+            "displayAs": "pxDateTime",
+            "label": "Update date/time",
+            "isSpecial": true
+          }
+        ],
+        "pxUpdateOperator": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "displayAs": "HarnessOperator",
+            "label": "Update Operator",
+            "isSpecial": true,
+            "isReadOnly": true
+          }
+        ],
+        "pxCreateDateTime": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Date Time",
+            "displayAs": "pxDateTime",
+            "label": "Create date/time",
+            "isSpecial": true
+          }
+        ],
+        "pyStatusWork": [
+          {
+            "classID": "OCS-ATZS-Work-MeldingMaritiemeFrequentie",
+            "type": "Text",
+            "maxLength": 32,
+            "displayAs": "WorkStatus",
+            "expectedLength": 32,
+            "label": "Case status"
+          }
+        ]
+      }
+    },
+    "components": [
+      "WideNarrowDetails",
+      "TextArea",
+      "DICTU_OCS_DisplayText",
+      "DefaultForm",
+      "Decimal",
+      "FlowContainer",
+      "Checkbox",
+      "DICTU_OCS_DisplayParagraph",
+      "TextInput",
+      "RDI_ATZS_ApparatuurLijst",
+      "OneColumn",
+      "Dropdown",
+      "RadioButtons",
+      "SimpleTable",
+      "RDI_ATZS_CaseReview",
+      "DICTU_OCS_FormWithColumns",
+      "View",
+      "Date",
+      "Integer",
+      "Details",
+      "CaseSummary",
+      "Region",
+      "DICTU_OCS_EmptyField",
+      "Confirmation",
+      "CaseOperator"
+    ],
+    "localeReferences": [
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERSCHEEPSGEGEVENS",
+      "OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!SCHEEPSIDENTIFICATIE",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!TOONOVERZICHT",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERSEARCHANDRESCUEWIDOUTINSTRUCTION",
+      "DATA-PARTY-RELATIE!VIEW!DISPLAYNAMEANDNUMBEROFAOPERATORPARTY",
+      "OCS-FW-ATFW-DATA-DM-COMPONENT!VIEW!PYEDIT",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!ZAAKINFORMATIEMIJNRDI",
+      "OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!RADIOROEPNAAMNOTEDITABLE",
+      "OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!REVIEWMMSI",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!AANWEZIGEAPPARATUURSECTION",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWCERTIFICAAT",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERAPPARATUURVRIJWILLIG",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWOVERZICHT",
+      "OCS-FW-ATFW-DATA-DM-APPARAAT!VIEW!PYEDIT",
+      "OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!INVOERSEARCHANDRESCUEWIDOUTINSTRUCTION_SCHIP",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERAPPARATUURVRIJWILLIG",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWMMSIWRAPPER",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERBEREIKBAARHEIDINNOODGEVALLEN",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERAPPARATUURVERPLICHT",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!PYREVIEW",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWSOORTBINDINGNL",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERAPPARATUURVRIJWILLIGWRAPPER",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!CASE!MELDING MARITIEME FREQUENTIE",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERSEARCHANDRESCUE",
+      "OCS-FW-ATFW-DATA-DM-BEREIKBAARHEIDINNOODGEVALLEN!VIEW!REVIEWINVOERBEREIKBAARHEIDINNOODGEVALLENBEREIKBAARHEIDINNOOD_2",
+      "OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!AANWEZIGEAPPARATUURSECTIONSCHIP_AANWEZIGEAPPARATUUR",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!CONTACTGEGEVENS",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWORDERNUMMER",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWSOORTMELDING",
+      "WORK-!VIEW!PYCASESUMMARY",
+      "OCS-FW-ATFW-DATA-DM-BEREIKBAARHEIDINNOODGEVALLEN!VIEW!REVIEWINVOERBEREIKBAARHEIDINNOODGEVALLEN_SCHIPBEREIKBAARHEID",
+      "OCS-FW-ATFW-DATA-DM-ADRES!VIEW!ZONDERSOORTADRES",
+      "OCS-FW-ATFW-DATA-DM-ADRES!VIEW!METSOORTADRES",
+      "OCS-FW-ATFW-DATA-DM-ADRES!VIEW!ADRESGEGEVENSREADONLYPARTIAL",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!GEGENEREERDENUMMERS",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWBEEINDIGINGMELDINGGEGEVENSDETAILS",
+      "OCS-FW-ATFW-DATA-DM-WANBETALING!VIEW!WANBETALINGDETAILS",
+      "OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!REVIEWINVOERZENDERIDENTIFICATIE_ZENDERIDENTIFICATIE",
+      "OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!VIEW!ATISNUMMERNOTEDITABLE",
+      "OCS-FW-ATFW-DATA-DM-CONTACTINFORMATIE!VIEW!CONTACTINFORMATIEREADONLY",
+      "OCS-FW-ATFW-DATA-DM-APPARAAT!VIEW!EDIT_COMPONENTLIST",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!PYCONFIRM",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWWANBETALINGDETAILS",
+      "OCS-FW-ATFW-DATA-DM-SCHIP!VIEW!AANWEZIGEAPPARATUURSECTION_SCHIP",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWINVOERZENDERIDENTIFICATIE",
+      "OCS-FW-ATFW-DATA-DM-CERTIFICAAT!VIEW!INVOERSOORTMELDING_HOOGSTECERTIFICAAT",
+      "OCS-FW-ATFW-DATA-DM-ZENDERIDENTIFICATIE!ASSOCIATED!KEUZEMMSI",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!INVOERAPPARATUURVERPLICHTINCOLUMN2",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!ZAAKINFORMATIE",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!OVERZICHT",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!ASSOCIATED!SOORTMELDING",
+      "OCS-ATZS-WORK-MELDINGMARITIEMEFREQUENTIE!VIEW!REVIEWVERREKENINGSINSTANTIE"
+    ],
+    "root": {
+      "type": "reference",
+      "config": {
+        "type": "view",
+        "name": "pyReview",
+        "context": "caseInfo.content"
+      }
+    },
+    "context_data": {
+      "caseInfo": {
+        "content": {
+          "summary_of_when_conditions__": {
+            "IsNietMijnAT": false,
+            "IsMijnAT": true,
+            "IsGegenereerdeNummersVisible": false,
+            "ZeevaartMelding": false,
+            "IsApparatuurExtraNodigTORSELCAL": false,
+            "IsBeeindigenZaak": false,
+            "IsInzienZaak": false
+          },
+          "ZenderIdentificatie": {
+            "summary_of_when_conditions__": {
+              "IsSoortMeldingNietZeevaart": true,
+              "IsMmsiNummerGenerated": false
+            },
+            "summary_of_associated_lists__": {}
+          },
+          "RelatieEmailadres": {
+            "summary_of_when_conditions__": {
+              "IsEmail": true,
+              "IsFaxnummer": false,
+              "IsOverigeSoorten": false,
+              "IsURL": false
+            }
+          },
+          "RelatieWorkPartyData": {
+            "summary_of_when_conditions__": {}
+          },
+          "summary_of_associated_lists__": {},
+          "Wanbetaling": {
+            "summary_of_when_conditions__": {
+              "BeeindigingWegensWanbetaling": false
+            }
+          },
+          "Schip": {
+            "BereikbaarheidInNoodgevallen": {
+              "summary_of_when_conditions__": {
+                "IsTelefoonnummerThuisfrontAanwezigMijnRDI": false
+              }
+            },
+            "summary_of_when_conditions__": {
+              "IsVaargebiedVisible": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

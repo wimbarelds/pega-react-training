@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+@layer base {
+  button,
+  summary {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .compact-list:is(ul, ol),
+  .compact-list :is(ul, ol) {
+    @apply !my-2;
+  }
+
+  .compact-list li {
+    @apply !my-0 !leading-[1.5];
+  }
+
+  .tag-list li {
+    @apply !font-mono;
+  }
+
+  .tag-list li::before {
+    content: '<';
+  }
+  .tag-list li::after {
+    content: '>';
+  }
+}
+
+.prose {
+  --tw-prose-invert-bullets: var(--color-slate-300);
+}
