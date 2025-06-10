@@ -30,14 +30,14 @@ export function Welkom() {
           Goed uitgeslapen?
         </p>
         <p className={cn('transition-opacity my-1', { 'opacity-0': progress < 3 })}>
-          Hebben jullie je koffie? Expresso?
+          Hebben jullie je koffie? Espresso?
         </p>
         <div className={cn('transition-opacity', { 'opacity-0': progress < 4 })}>
           <h2 className="text-4xl font-bold mt-8 mb-4">Heads up</h2>
           <p className="py-1">
             Dit wordt een enorme informatie-dump; als jullie 10% vasthouden is dat mooi.
           </p>
-          <p className="py-1">Ik denk dat het belangrijkste aan het eind zit.</p>
+          <p className="py-1">Ik denk dat het belangrijkste aan het einde zit.</p>
         </div>
       </div>
 
@@ -45,7 +45,6 @@ export function Welkom() {
         <p className="text-lg font-semibold">Who am I?</p>
         <p className="mt-1 text-xl font-bold">Wim Barelds</p>
         <p className="text-md">Frontend Expert</p>
-        <img src="logo-soprasteria.svg" alt="Sopra Steria" className="mt-3 h-auto w-32" />
       </div>
     </div>
   );

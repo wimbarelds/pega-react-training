@@ -9,9 +9,9 @@ export function JsxExplanation() {
       <Collapse title="Spoiler" prose>
         <ul className="compact-list">
           <li>JSX is eigenlijk HTML maar dan met 'echte' XML</li>
-          <li>In JSX kan je naast HTML, ook componenten tonen</li>
-          <li>In JSX kan je javascript gebruiken</li>
-          <li>Componenten beginnen met hoofdletters</li>
+          <li>In JSX kun je naast HTML, ook componenten tonen</li>
+          <li>In JSX kun je javascript gebruiken</li>
+          <li>Componenten beginnen met een hoofdletter</li>
         </ul>
       </Collapse>
     </Prose>
