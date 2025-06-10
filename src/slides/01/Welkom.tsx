@@ -45,7 +45,6 @@ export function Welkom() {
         <p className="text-lg font-semibold">Who am I?</p>
         <p className="mt-1 text-xl font-bold">Wim Barelds</p>
         <p className="text-md">Frontend Expert</p>
-        <img src="logo-soprasteria.svg" alt="Sopra Steria" className="mt-3 h-auto w-32" />
       </div>
     </div>
   );

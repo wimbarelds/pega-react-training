@@ -8,6 +8,14 @@
   }
 }
 
+/* Sopra Steria colors */
+@theme {
+  --color-ssg-dark-purple: #4D1D82;
+  --color-ssg-light-purple: #8b1d82;
+  --color-ssg-red: #cf022b;
+  --color-ssg-orange: #ef7d00;
+}
+
 @layer components {
   .compact-list:is(ul, ol),
   .compact-list :is(ul, ol) {
